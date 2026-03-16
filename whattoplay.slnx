@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="whattoplay.client/whattoplay.client.esproj">
+    <Build />
+    <Deploy />
+  </Project>
+  <Project Path="whattoplay.Server/whattoplay.Server.csproj" />
+</Solution>
