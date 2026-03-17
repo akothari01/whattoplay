@@ -7,6 +7,7 @@
     <SpaRoot>..\whattoplay.client</SpaRoot>
     <SpaProxyLaunchCommand>npm run dev</SpaProxyLaunchCommand>
     <SpaProxyServerUrl>https://localhost:55495</SpaProxyServerUrl>
+    <UserSecretsId>3f5a369f-4b58-498f-b021-f968781321ae</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
@@ -20,6 +21,10 @@
     <ProjectReference Include="..\whattoplay.client\whattoplay.client.esproj">
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Controllers\" />
   </ItemGroup>
 
 </Project>
